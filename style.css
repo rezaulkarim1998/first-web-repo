@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.flexible{
     display:flex;
     margin-bottom:100px;
 }
@@ -19,6 +19,7 @@ section{
     background-size:cover;
     background
 }
+
 .two-width{
     width:50%;
     margin-left:8%;
@@ -38,4 +39,23 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.last-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+}
+.last-width{
+    width:40%;
+    margin-left:5%;
+    margin-right: 5%;
+    
+    border-radius:5px;
+    box-shadow:10px 10px 20px;
+    padding:20px;
+    border-image:linear-gradient(cyan,blue);
+    border-image-slice:1;
+    border-left:10px solid;
+}
+.last-head{
+    font-size:30px;
 }
